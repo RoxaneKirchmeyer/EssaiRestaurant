@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="/css/sitetest.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Lien vers l'accueil">Accueil</a></li>
+                <li><a href="histoire.html" title="Lien vers la page notre histoire">Notre histoire</a></li>
+                <li><a href="menu.html" title="Lien vers la page menu">Menu</a></li>
+                <li><a href="contact.html" title="Lien vers la page me contacter">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="/img/table.png" alt="Image d'un restaurant">
+        </div>
+        <table>
+            <tr>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+            <tr>
+                <td>Lasagnes</td>
+                <td>Salade</td>
+                <td>Curry</td>
+                <td>Pizza</td>
+                <td>Tacos</td>
+            </tr>
+            <tr>
+                <td colspan="5">Desserts en option</td>
+            </tr>
+            <tr>
+                <td colspan="5">Boisson gratuite pour l'achat d'un menu</td>
+            </tr>
+        </table>
+        <p>Réservez votre table:</p>
+        <form>
+            <div>    
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" placeholder="Insérez votre nom de famille">
+            </div>
+
+            <div>            
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" placeholder="Insérez votre prénom">
+            </div>
+
+            <div>            
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Insérez votre mail">
+            </div>
+            
+            <div>            
+                <label for="tel">Télephone:</label>
+                <input type="tel" id="tel" placeholder="Insérez votre télephone">
+            </div>
+
+            <div>
+                <input type="submit" id="send">
+            </div>
+        </form>
+
+
+        <article class="repas">
+            <figure>        
+                <img src="/img/salade.jpg" alt="Image d'une délicieuse salade">
+                <figcaption>Salade</figcaption>
+            </figure>
+            <figure>
+                <img src="/img/tacos.jpg" alt="Image d'un délicieux tacos">
+                <figcaption>Tacos</figcaption>
+            </figure>
+        </article>
+
+
+
+    </main>
+</body>
+</html>
